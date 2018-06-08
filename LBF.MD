@@ -12,6 +12,10 @@ Install Ionic, this step is required only once if Ionic is not installed.
 ```sh
 npm install -g ionic@latest
 ```
+Install Cordova, this help to packge and make the native app
+```sh
+npm install -g cordova
+```
 Change directory in terminal to the project folder
 ```sh
 cd <direcrtory of project>
