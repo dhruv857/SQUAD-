@@ -11,11 +11,11 @@
 - On MySQL Database, import the ```squad.sql``` file. It is in ```database``` folder.
 	- if you installed XAMPP this can be done by starting the Apache and MySQL Servers and navigating to phpmyadmin on browser.
 	- if you are on you server, use
-	  ``` mysql -u username -p password < <path to squad.sql>```
+	  ```sh mysql -u username -p password < <path to squad.sql>```
 - Create a user in MySQL
 	- if you have PHPMyadmin, navigate to phpmyadmin user accounts section.
 		- Create a user by going to ```Add User Account```
-		- Create a user with ``` <username>,<password>```. Leave host as ```%```. And give global privileges. (If you are advanced user, assign permissions accordingly).
+		- Create a user with ``` <username>,<password>```. Change host to ```localhost```. And give global privileges. (If you are advanced user, assign permissions accordingly).
 - Once you finish importing SQL script, go to the desktop folder.
 - Open ``` desktop/pages/assets/db.php ``` file.
 - Edit the following ( look for the assignments/variables)
