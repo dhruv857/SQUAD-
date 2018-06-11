@@ -11,7 +11,7 @@
 - On MySQL Database, import the ```squad.sql``` file. It is in ```database``` folder.
 	- if you installed XAMPP this can be done by starting the Apache and MySQL Servers and navigating to phpmyadmin on browser.
 	- if you are on you server, use
-	  ```sh mysql -u username -p password < <path to squad.sql>```
+	  ``` mysql -u username -p password < <path to squad.sql>```
 - Create a user in MySQL
 	- if you have PHPMyadmin, navigate to phpmyadmin user accounts section.
 		- Create a user by going to ```Add User Account```
