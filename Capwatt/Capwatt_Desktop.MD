@@ -19,7 +19,8 @@
 - Once you finish importing SQL script, go to the desktop folder.
 - Open ``` desktop/pages/assets/db.php ``` file.
 - Edit the following ( look for the assignments/variables)
-	 ```  $servername = "localhost"; //or if you defined any or are using server
-        $username = "<username>"; //whatever you created in the step earlier
-        $password = "<password>"; //whatever you created in the step earlier
-   ```
+	```php
+		$servername = "localhost"; //or if you defined any or are using server
+        	$username = "<username>"; //whatever you created in the step earlier
+        	$password = "<password>"; //whatever you created in the step earlier
+   	```
