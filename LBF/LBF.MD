@@ -44,7 +44,7 @@ ionic cordova build android --prod
 
 ## Sample JSON Database Document
 
-[Here](https://github.com/dhruv857/squad-/LBF/lbfsmartcare.json)
+[Here](https://github.com/dhruv857/SQUAD-/blob/master/LBF/lbfsmartcare.json)
 
 ## Technologies Used
 
@@ -57,9 +57,9 @@ ionic cordova build android --prod
  - Firebase Database
 
 ## Links to refer
-  -
-  -
-  -
+  - [Ionic Framework getting started](https://ionicframework.com/getting-started)
+  - [Deploying Ionic App on device](https://ionicframework.com/docs/intro/deploying/)
+  - TBD
 
 ## Brand Guidelines
   - Link and file to be inserted here

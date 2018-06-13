@@ -1,7 +1,7 @@
 
 # Capwatt Desktop Documentation
 
-- Download the zip file and unzip them. The folders required for desktop are admin, database and desktop.
+- Download the zip file and unzip them. The folders required for web app are Capwatt and the squad.sql file.
 > You will need Apache, PHP and MySQL server for this to run.
 > - [XAMPP](https://www.apachefriends.org/download.html) is recommended if you are trying to run the application locally.
 >  - If you are running on a server have Apache, MySQL and PHP set up on it and define root of the web server.
@@ -13,12 +13,13 @@
 	- if you installed XAMPP this can be done by starting the Apache and MySQL Servers and navigating to phpmyadmin on browser.
 	- if you are on you server, use
 	  ```sh
-		 		mysql -u username -p password < <path to squad.sql>
+		 		mysql -u <username> -p < <path to squad.sql>
 		```
+		*Enter the password for mysql user when prompted*
 	- Create a user in MySQL
 	- if you have PHPMyadmin, navigate to phpmyadmin user accounts section.
 		- Create a user by going to ``` Add User Account ```
-		- Create a user with ``` <username>,<password>```. Leave host as ```%```. And give global privileges. (If you are advanced user, assign permissions accordingly).
+		- Create a user with ``` <username>,<password>```. Change host as ```localhost```. And give global privileges. (If you are advanced user, assign permissions accordingly).
 - Once you finish importing SQL script, unzip and copy **Capwatt** folder to the root directory of your web server. If you are using **XAMPP**, it is ```htdocs```.
 - Open ``` desktop/pages/assets/db.php ``` file in the **Capwatt** folder.
 - Edit the following ( look for the assignments/variables)
@@ -98,9 +99,7 @@
  - Highcharts
 
 ## Links to refer
-   -
-   -
-   -
+   - TBD
 
 ## Brand Guidelines
 	   - Link and file to be inserted here

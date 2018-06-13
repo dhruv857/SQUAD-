@@ -58,9 +58,9 @@ Before proceeding, make sure you have the following:
  - Highcharts
 
 ## Links to refer
-  -
-  -
-  -
+  - [Ionic Framework getting started](https://ionicframework.com/getting-started)
+  - [Deploying Ionic App on device](https://ionicframework.com/docs/intro/deploying/)
+  - TBD
 
 ## Brand Guidelines
     - Link and file to be inserted here
