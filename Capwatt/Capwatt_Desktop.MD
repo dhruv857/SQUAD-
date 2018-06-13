@@ -12,23 +12,30 @@
 - On MySQL Database, import the ```squad.sql``` file. It is in ```database``` folder.
 	- if you installed XAMPP this can be done by starting the Apache and MySQL Servers and navigating to phpmyadmin on browser.
 	- if you are on you server, use
-	  ``` mysql -u username -p password < <path to squad.sql>```
-- Create a user in MySQL
+	  ```sh
+		 		mysql -u username -p password < <path to squad.sql>
+		```
+	- Create a user in MySQL
 	- if you have PHPMyadmin, navigate to phpmyadmin user accounts section.
-		- Create a user by going to ```Add User Account```
+		- Create a user by going to ``` Add User Account ```
 		- Create a user with ``` <username>,<password>```. Leave host as ```%```. And give global privileges. (If you are advanced user, assign permissions accordingly).
 - Once you finish importing SQL script, unzip and copy **Capwatt** folder to the root directory of your web server. If you are using **XAMPP**, it is ```htdocs```.
 - Open ``` desktop/pages/assets/db.php ``` file in the **Capwatt** folder.
 - Edit the following ( look for the assignments/variables)
-	 ```  $servername = "localhost"; //or if you defined any or are using server
+	 ```php
+	   		$servername = "localhost"; //or if you defined any or are using server
         $username = "<username>"; //whatever you created in the step earlier
         $password = "<password>"; //whatever you created in the step earlier
    ```
 - Open ```desktop/pages/assets/session_check.php``` in **Capwatt** folder.
 - Edit the following:
-   ```  $root_url = "<web-location of Capwatt folder>/desktop/pages/" ```
+   ```php
+	 		$root_url = "<web-location of Capwatt folder>/desktop/pages/";
+	 ```
    For e.g., if location of your Capwatt when you open it in browser through XAMPP is ``` http://localhost:8888/Capwatt``` then
-   ```$root_url = http://localhost:8888/Capwatt/desktop/pages```
+   ```php
+	 		$root_url = "http://localhost:8888/Capwatt/desktop/pages";
+	 ```
 - Open ``` admin/assets/db.php ``` file in the **Capwatt** folder.
 - Edit the following ( look for the assignments/variables)
 	 ```php  
@@ -38,17 +45,31 @@
    ```
 - Open ```admin/session_check.php``` in **Capwatt** folder.
 - Edit the following:
-   ```  $root_url = "<web-location of Capwatt folder>/admin/" ```
-   For e.g., if **Capwatt** folder is located in your web-directory root i.e. hotdogs, then the path through XAMPP is ``` http://localhost:8888/Capwatt``` hence
-   ```$root_url = http://localhost:8888/Capwatt/admin```
+   ```php
+	   $root_url = "<web-location of Capwatt folder>/admin/";
+	 ```
+   For e.g., if **Capwatt** folder is located in your web-directory root i.e. hotdogs, then the path through XAMPP is
+	 ```
+	 http://localhost:8888/Capwatt
+	 ```
+	 hence
+   ```php
+	 		$root_url = "http://localhost:8888/Capwatt/admin";
+	 ```
 - Run Apache and MySQL server through XAMPP.
-- Navigate to ``` http://localhost:<port-if-any>/Capwatt/```
+- Navigate to
+	```
+ 			http://localhost:<port-if-any>/Capwatt/
+	```
 	- For Client login, the url is
-	 ``` http://localhost:<port-if-any>/capwatt/desktop```
+	 ```
+	 		http://localhost:<port-if-any>/capwatt/desktop
+	 ```
 	- For Admin login, the url is
-	``` http://localhost:<port-if-any>/capwatt/admin```
+	```
+		 http://localhost:<port-if-any>/capwatt/admin
+	```
 
-*If you have any questions or doubts, refer to following links.*
 
 ## Default Credentials:
 
@@ -63,7 +84,7 @@
 ![database diagram](https://imgur.com/a/Jx7xlnS)
 
 ## Simple Application Architecture
-![Architecture (host can be Linux or Windows or anything you use.)](https://imgur.com/pXQtRD9)
+![Architecture <host can be Linux or Windows or anything you use.>](https://imgur.com/pXQtRD9)
 
 ## Technologies Used
 
@@ -80,3 +101,6 @@
    -
    -
    -
+
+## Brand Guidelines
+	   - Link and file to be inserted here

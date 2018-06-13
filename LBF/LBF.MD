@@ -41,3 +41,25 @@ It is important to note that Android SDK is required to be installed on the syst
 ```sh
 ionic cordova build android --prod
 ```
+
+## Sample JSON Database Document
+
+[Here](https://github.com/dhruv857/squad-/LBF/lbfsmartcare.json)
+
+## Technologies Used
+
+ - Ionic
+ - NPM
+ - HTML
+ - CSS  
+ - Typescript
+ - Firebase Authentication
+ - Firebase Database
+
+## Links to refer
+  -
+  -
+  -
+
+## Brand Guidelines
+  - Link and file to be inserted here
