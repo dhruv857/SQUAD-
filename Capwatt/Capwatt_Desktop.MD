@@ -82,10 +82,10 @@
 	 - password: ```squad@capwatt```
 
 ## Database Diagram
-![database diagram](https://imgur.com/a/Jx7xlnS)
+![database diagram](https://raw.githubusercontent.com/dhruv857/SQUAD-/master/Capwatt/DB.png)
 
 ## Simple Application Architecture
-![Architecture <host can be Linux or Windows or anything you use.>](https://imgur.com/pXQtRD9)
+![Architecture <host can be Linux or Windows or anything you use.>](https://raw.githubusercontent.com/dhruv857/SQUAD-/master/Capwatt/Archi.png)
 
 ## Technologies Used
 

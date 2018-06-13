@@ -45,7 +45,7 @@ Before proceeding, make sure you have the following:
 
 
 ## Database Diagram
-![database diagram](https://imgur.com/a/Jx7xlnS)
+![database diagram](https://raw.githubusercontent.com/dhruv857/SQUAD-/master/Capwatt/DB.png)
 
 
 ## Technologies Used
