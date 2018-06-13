@@ -41,3 +41,22 @@ It is important to note that Android SDK is required to be installed on the syst
 ```sh
 ionic cordova build android --prod
 ```
+
+
+## Database Diagram
+![database diagram](https://imgur.com/a/Jx7xlnS)
+
+
+## Technologies Used
+
+ - Ionic
+ - NPM
+ - HTML
+ - CSS  
+ - Typescript
+ - Highcharts
+
+## Links to refer
+  -
+  -
+  -
