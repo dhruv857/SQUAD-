@@ -1,10 +1,10 @@
-- Unzip Race.zip contents and move the **race** folder to htdocs directory.
+- Unzip Race_Code.zip contents and move the **race** folder to htdocs directory.
 - Run XAMPP **(You need to use PHP 5.6 or 5.4, OSTickets is buggy with PHP7.0 and higher, make sure you use XAMPP with supported PHP versions)**, and navigate to **phpmyadmin**.
 - On PHPMyadmin, navigate to phpmyadmin user accounts section.
   - Create a user by going to ``` Add User Account ```
   - Create two users:
-      - one with ``` username:livechat, password:SqUaD1 ```. Change host as ```localhost```. And give global privileges. (If you are advanced user, assign permissions accordingly).This is for enodlffm_connect database which is in
-      - one with ``` username:race, password:SqUaD1 ```. Change host as ```localhost```. And give global privileges. (If you are advanced user, assign permissions accordingly).
+      - one with ``` username:livechat, password:SqUaD1 ```. Change host as ```localhost```. And give global privileges. (If you are advanced user, assign permissions accordingly).This is for enodlffm_connect database(for LiveHelperChat) which is in ```chat.sql``` file in ```race_sql``` folder.If you want to change it, you can change it in file ```race/connect/settings/settings.inc.php```.
+      - one with ``` username:race, password:SqUaD1 ```. Change host as ```localhost```. And give global privileges. (If you are advanced user, assign permissions accordingly).This is for enodlffm_ticket database(for OSTickets) which is in ```tickets.sql``` file in ```race_sql``` folder.If you want to change it, you can change it in file ```race/include/ost-config.php```.
 - Local mysql executable and cd to that folder.
   ```sh
     cd <path-to-mysql-executable>
@@ -74,7 +74,7 @@
   - [Apache Forum](https://www.apache.org/foundation/getinvolved.html)
   - [PHP](http://php.net/get-involved.php)
   - [MYSQL Forum](https://forums.mysql.com/)
-  - [Host on DigitalOcean](https://www.digitalocean.com/com munity/)
+  - [Host on DigitalOcean](https://www.digitalocean.com/community/)
 
 ## Brand Guidelines
     - Link and file to be inserted here
