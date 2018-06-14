@@ -75,6 +75,7 @@
   - [PHP](http://php.net/get-involved.php)
   - [MYSQL Forum](https://forums.mysql.com/)
   - [Host on DigitalOcean](https://www.digitalocean.com/community/)
+  - To run it on DigitalOcean, follow steps laid out in documentation submitted at the end of the Program:SQUAD.
 
 ## Brand Guidelines
     - Link and file to be inserted here
